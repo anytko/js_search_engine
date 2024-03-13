@@ -24,15 +24,26 @@ body {
     margin-right: 20px; 
 }
 
-.nav-tabs .nav-item .nav-link.active {
-    background-color: #644536; 
-    color: #DEDEDE; 
-    border-bottom-color: transparent; 
+
+/* Style for inactive tabs */
+.nav-tabs .nav-item .nav-link {
+    background-color: #B87D48; /* Light brown background */
+    color: #DEDEDE; /* White text */
+    border-bottom: 1px solid transparent;
+    margin-bottom: 0.25px;
 }
 
 .nav-tabs .nav-item .nav-link:hover {
     background-color: #644536;
 }
+
+/* Style for active tabs */
+.nav-tabs .nav-item .nav-link.active,
+.nav-tabs .nav-item .nav-link:focus{
+    background-color: #644536; /* Brown background */
+    color: #DEDEDE; /* White text */
+}
+
 
 .navbar-brand {
     color: #DEDEDE;
@@ -48,5 +59,14 @@ body {
 .navbar-brand:hover .fa-camera-retro {
     color: #52300F; /* Change to the desired color */
 }
+
+
+
+
+
+
+
+
+
 
 
