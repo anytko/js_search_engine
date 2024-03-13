@@ -1,0 +1,52 @@
+body {
+    background-color: #9E6240;
+}
+
+.bg-custom {
+    background-color: #B87D48;
+}
+
+.navbar {
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+}
+
+.navbar-brand {
+    font-size: 24px; 
+}
+
+.nav-link {
+    font-size: 28px;
+    color: #DEDEDE;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 20px; 
+}
+
+.nav-tabs .nav-item .nav-link.active {
+    background-color: #644536; 
+    color: #DEDEDE; 
+    border-bottom-color: transparent; 
+}
+
+.nav-tabs .nav-item .nav-link:hover {
+    background-color: #644536;
+}
+
+.navbar-brand {
+    color: #DEDEDE;
+    margin-left: 24px;
+    font-size: 40px;
+}
+
+.navbar-brand:hover {
+    color: #52300F; /* Change to the desired color */
+}
+
+/* Change color of icon on hover */
+.navbar-brand:hover .fa-camera-retro {
+    color: #52300F; /* Change to the desired color */
+}
+
+
