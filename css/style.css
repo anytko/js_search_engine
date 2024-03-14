@@ -1,9 +1,13 @@
 body {
     background-color: #9E6240;
+    background-color: #C07F5F;
+    background-color: #704214;
+    background-color: #98613A;
 }
 
 .bg-custom {
     background-color: #B87D48;
+    background-color: #E9CFAF;
 }
 
 .navbar {
@@ -13,11 +17,13 @@ body {
 
 .navbar-brand {
     font-size: 24px; 
+    font-family: "Space Mono", monospace;
 }
 
 .nav-link {
     font-size: 28px;
     color: #DEDEDE;
+    font-family: "Space Mono", monospace;
 }
 
 .navbar-nav .nav-item {
@@ -35,6 +41,8 @@ body {
 
 .nav-tabs .nav-item .nav-link:hover {
     background-color: #644536;
+    background-color: #733c14;
+    background-color: #46220f;
 }
 
 /* Style for active tabs */
@@ -42,23 +50,42 @@ body {
 .nav-tabs .nav-item .nav-link:focus{
     background-color: #644536; /* Brown background */
     color: #DEDEDE; /* White text */
+    background-color: #733c14;
+    background-color: #46220f;
 }
 
 
 .navbar-brand {
-    color: #DEDEDE;
+    color: #46220f;
     margin-left: 24px;
     font-size: 40px;
 }
 
 .navbar-brand:hover {
     color: #52300F; /* Change to the desired color */
+    color: #733c14;
 }
+
 
 /* Change color of icon on hover */
 .navbar-brand:hover .fa-camera-retro {
     color: #52300F; /* Change to the desired color */
+    color: #733c14;
 }
+
+
+.direct_container {
+    text-align: center;
+    margin: 5vh;
+    border: #46220f solid 8px;
+    padding: 10px;
+    border-radius: 20px;
+    color: #DEDEDE;
+    font-family: "Space Mono", monospace;
+
+}
+
+
 
 
 
