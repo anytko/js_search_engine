@@ -94,7 +94,13 @@ body {
 
 }
 
+.search_items {
+    margin-left: 15px;
+}
 
+.submit{
+    margin-right: 15px;
+}
 
 .big_form_container {
     display: flex;
@@ -107,11 +113,11 @@ body {
     font-family: "Space Mono", monospace;
 }
 
-
-
 @media (max-width: 1300px) { /* Adjust breakpoint as needed */
     .big_form_container {
         flex-direction: column; /* Change to column layout on medium and smaller screens */
+        align-items: center; /* Center items horizontally when in column layout */
+        text-align: center; /* Center items horizontally within the container */
     }
 
     .search_items,
@@ -119,6 +125,28 @@ body {
         margin-bottom: 40px; /* Increase space between columns */
     }
 }
+
+
+.search_items,
+.number_items {
+    margin-bottom: 20px; /* Adjust spacing between form items */
+}
+
+.keyword_label,
+.number_label {
+    font-weight: bold;
+    margin-bottom: 5px; /* Adjust spacing between label and input */
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 80%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+
 
 input:focus {
     outline: 2px solid #46220f; /* Change to your desired color */
@@ -130,10 +158,13 @@ input:focus {
     border-radius: 20px;
     font-size: 40px;
     text-decoration: none;
+    padding: 10px;
+    margin-top: 30px;
 }
 
 input[type="submit"] {
     border-color: #E9CFAF;
+    outline-color: #E9CFAF;
    
 }
 
@@ -149,12 +180,138 @@ input[type="submit"] {
 }
 
 
-footer {
-    text-align: center;
+.form_container {
+    margin: 20px;
+    margin-top: 6.25vh;
+    border: #E9CFAF solid 8px;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70vh;
     background-color: #46220f;
+  }
+  
+  .form_container form {
+    flex-grow: 1;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .title_flex {
+    text-align: center;
+    display: flex;
+  }
+  
+  .second_title {
+    color: #DEDEDE;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Space Mono", monospace;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .all_entry {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    flex-grow: 1;
+    
+  }
+  
+  .form_text {
+    color: #DEDEDE;
+    font-family: "Space Mono", monospace;
+    
+  }
+  
+  .row_entry {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    flex: 1;
+    margin-right: 10px;
+    
+  }
+  
+  .first_name,
+  .last_name,
+  .email {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    font-size: 32px;
+    margin-bottom: 50px;
+    margin-top: 5vh;
+    
+  }
+  
+  .message {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    position: relative;
+    width: 50%;
+    padding-bottom: 68px;
+    font-family: "Space Mono", monospace;
+    margin-top: 5vh;
+    margin-right: 0.2vw;
+    
+  }
+  
+  .message_text {
+    color: #DEDEDE;
+    font-size: 32px;
+  }
+  
+  .send_button {
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    font-size: 32px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+
+  .btn-lg {
+    font-size: 32px;
+    margin-top: 200px;
+    position: absolute; /* Set position to absolute */
+    bottom: 0; /* Align the bottom of the button to the bottom of its parent */
+    right: 0;
+  }
+
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #46220f;
+    padding: 20px 0;
+    text-align: center;
     color: #DEDEDE;
 }
 
+.footer_2 {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #E9CFAF;
+        padding: 20px 0;
+        text-align: center;
+        color: #46220f;
+
+}
 
 
 
