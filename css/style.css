@@ -290,8 +290,7 @@ input[type="submit"] {
 
 
 
-.footer {
-    position: fixed;
+  .footer {
     bottom: 0;
     left: 0;
     width: 100%;
@@ -312,6 +311,27 @@ input[type="submit"] {
         color: #46220f;
 
 }
+
+.gif_container{
+    align-items: center;
+}
+
+#gif_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#gif_container img {
+    flex: 1 0 auto;
+    max-width: 100%; 
+    height: auto; 
+    margin-bottom: 20px; 
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+
 
 
 
