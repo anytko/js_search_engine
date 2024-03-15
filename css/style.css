@@ -272,7 +272,7 @@ input[type="submit"] {
   
   .send_button {
     position: absolute;
-    bottom: 0px;
+    bottom: 28px;
     right: 0;
     font-size: 32px;
     padding: 10px;
