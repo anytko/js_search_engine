@@ -24,15 +24,10 @@ body {
 }
 
 .navbar-brand {
-    font-size: 20px; 
+    font-size: 24px;
     font-family: "Space Mono", monospace;
-}
-
-@media (max-width: 576px) {
-    .navbar-brand {
-      font-size: 14px;
-    }
   }
+
 
 
 .nav-link {
@@ -87,6 +82,13 @@ body {
     color: #52300F; /* Change to the desired color */
     color: #733c14;
 }
+
+
+@media (max-width: 576px) {
+    .navbar-brand {
+      font-size: 28px;
+    }
+  }
 
 
 .direct_container {
@@ -199,7 +201,7 @@ input[type="submit"] {
     background-color: #46220f;
     flex-grow: 1;
     height: 100%;
-    padding-bottom: 60px;
+    padding-bottom: 68px;
   }
   
   .form_container form {
@@ -274,16 +276,17 @@ input[type="submit"] {
   
   .send_button {
     position: relative;
-    bottom: -5vh;
-    right: 0;
+    bottom: -5.2vh;
+    right: 10px;
     font-size: 32px;
     padding: 10px;
     border-radius: 10px;
+    
   }
   
   .btn-lg {
     font-size: 32px;
-    margin-top: 262px;
+    margin-top: 260px;
     position: absolute; /* Set position to absolute */
     bottom: 0; /* Align the bottom of the button to the bottom of its parent */
     right: 10px;
