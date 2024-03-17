@@ -281,12 +281,15 @@ input[type="submit"] {
     font-size: 32px;
     padding: 10px;
     border-radius: 10px;
+    top: 5vh;
     
   }
+
+
   
   .btn-lg {
     font-size: 32px;
-    margin-top: 260px;
+    margin-top: 400px;
     position: absolute; /* Set position to absolute */
     bottom: 0; /* Align the bottom of the button to the bottom of its parent */
     right: 10px;
