@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Default keyword and number of images
-    const defaultKeyword = 'wild west movie'; // Example default keyword
+    const defaultKeyword = 'wild west'; // Example default keyword
     const defaultNumberOfImages = 20; // Example default number of images
 
     // Set default values in the input fields

@@ -12,7 +12,7 @@ https://anytko.github.io/js_search_engine/
 This image search engine uses JavaScript and the GIPHY API to search for and return images using keyword and number of GIF's input fields. Specifically, the websire returns and displays a chosen number of images based on the user-selected keyword at a rate of 100 calls per hour (based on GIPHY API use limits). This website also provides a contact section and form that can be used to contact the website developer. This website is built using HTML, CSS, and JavaScript. 
 
 ## Usage
-This website is used to return and display images based on user-selected keywords and number of desired images form fields. The default theme is "wild west movies", but can easily be bachged by entering a new keyword/search query. The contact section in the website navbar is linked to a form that can be used to contact the website developer. **Form responses are uploaded and organized using formspree.io.**
+This website is used to return and display images based on user-selected keywords and number of desired images form fields. The default theme is "wild west", but can easily be bachged by entering a new keyword/search query. The contact section in the website navbar is linked to a form that can be used to contact the website developer. **Form responses are uploaded and organized using formspree.io.**
 
 ## Technologies Used
 - HTML
