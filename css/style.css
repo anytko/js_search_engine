@@ -222,6 +222,7 @@ input[type="submit"] {
     justify-content: space-between;
     width: 100%;
     flex-grow: 1;
+    margin-top: 30px;
   }
   
   .form_text {
@@ -235,6 +236,7 @@ input[type="submit"] {
     width: 50%;
     flex: 1;
     margin-right: 10px;
+    margin-top: 20px;
   }
   
   .first_name,
