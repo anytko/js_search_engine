@@ -28,6 +28,13 @@ body {
     font-family: "Space Mono", monospace;
 }
 
+@media (max-width: 576px) {
+    .navbar-brand {
+      font-size: 14px;
+    }
+  }
+
+
 .nav-link {
     font-size: 28px;
     color: #DEDEDE;
@@ -276,10 +283,10 @@ input[type="submit"] {
   
   .btn-lg {
     font-size: 32px;
-    margin-top: 200px;
+    margin-top: 260px;
     position: absolute; /* Set position to absolute */
     bottom: 0; /* Align the bottom of the button to the bottom of its parent */
-    right: 0;
+    right: 10px;
 
   }
 
