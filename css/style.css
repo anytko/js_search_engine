@@ -269,12 +269,23 @@ input[type="submit"] {
     font-family: "Space Mono", monospace;
     margin-bottom: 1vh;
   }
+
+
   
   .message_text {
     color: #dedede;
     font-size: 24px;
   }
   
+
+  @media screen and (min-width: 576px) and (max-width: 767px) and (orientation: landscape) {
+    .message {
+        margin-bottom: 3vh;
+    }
+}
+
+
+
   .send_button {
     position: relative;
     right: 10px;
@@ -286,11 +297,6 @@ input[type="submit"] {
   }
 
 
-  @media screen and (max-device-width: 767px) and (orientation: landscape) {
-    .send_button {
-        font-size: 28px; /* Adjust as needed */
-    }
-}
 
 .btn-lg {
     font-size: 32px;
