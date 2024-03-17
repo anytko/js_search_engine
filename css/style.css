@@ -267,7 +267,7 @@ input[type="submit"] {
     width: 50%;
     padding-bottom: 40px;
     font-family: "Space Mono", monospace;
-    margin-bottom: 1vh;
+    margin-bottom: 2vh;
   }
 
 
@@ -306,7 +306,7 @@ input[type="submit"] {
         margin-bottom: 4vh;
     }}
 
-    
+
 
   .footer {
     bottom: 0;
