@@ -6,8 +6,8 @@ As a potential user, I want to be able to specify how many images I recieve per 
 
 ## User Story 2
 
-As a professional searching for images to put in a presentation, I want to be able to specify the resolution of images I recieve back.
+As a professional searching for images to put in a presentation, I want to be able to specify the theme of images returned.
 
 ## User Story 3
 
- As a young person, I want to be able to save the images I recieve so that I can send them to my friends. 
+ As a potential collaborator, I want to be able to contact the developers of this website. 
