@@ -7,14 +7,10 @@
 
 
 body {
-    background-color: #9E6240;
-    background-color: #C07F5F;
-    background-color: #704214;
     background-color: #98613A;
 }
 
 .bg-custom {
-    background-color: #B87D48;
     background-color: #E9CFAF;
 }
 
@@ -50,17 +46,13 @@ body {
 }
 
 .nav-tabs .nav-item .nav-link:hover {
-    background-color: #644536;
-    background-color: #733c14;
     background-color: #46220f;
 }
 
 /* Style for active tabs */
 .nav-tabs .nav-item .nav-link.active,
 .nav-tabs .nav-item .nav-link:focus{
-    background-color: #644536; /* Brown background */
     color: #DEDEDE; /* White text */
-    background-color: #733c14;
     background-color: #46220f;
 }
 
@@ -72,14 +64,12 @@ body {
 }
 
 .navbar-brand:hover {
-    color: #52300F; /* Change to the desired color */
     color: #733c14;
 }
 
 
 /* Change color of icon on hover */
 .navbar-brand:hover .fa-camera-retro {
-    color: #52300F; /* Change to the desired color */
     color: #733c14;
 }
 
@@ -296,13 +286,13 @@ input[type="submit"] {
 .btn-lg {
     font-size: 32px;
     margin-top: 240px;
-    position: absolute; /* Set position to absolute */
-    bottom: 0; /* Align the bottom of the button to the bottom of its parent */
+    position: absolute; 
+    bottom: 0; 
     right: 10px;
 
   }
 
-  @media (max-width: 767px) and (min-width: 576px) { /* Adjust breakpoint as needed */
+  @media (max-width: 767px) and (min-width: 576px) { 
     .message{
         margin-bottom: 4vh;
     }}
