@@ -278,12 +278,6 @@ input[type="submit"] {
   }
   
 
-  @media screen and (min-width: 576px) and (max-width: 767px) and (orientation: landscape) {
-    .message {
-        margin-bottom: 3vh;
-    }
-}
-
 
 
   .send_button {
@@ -307,7 +301,12 @@ input[type="submit"] {
 
   }
 
+  @media (max-width: 767px) and (min-width: 576px) { /* Adjust breakpoint as needed */
+    .message{
+        margin-bottom: 4vh;
+    }}
 
+    
 
   .footer {
     bottom: 0;
