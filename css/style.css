@@ -280,20 +280,18 @@ input[type="submit"] {
     font-size: 32px;
     padding: 10px;
     border-radius: 10px;
-    top: 5vh;
+    top: 5.6vh;
     
   }
 
 
   @media screen and (max-device-width: 767px) and (orientation: landscape) {
     .send_button {
-        margin-top: 40px; /* Adjust as needed */
+        font-size: 28px; /* Adjust as needed */
     }
 }
 
-
-  
-  .btn-lg {
+.btn-lg {
     font-size: 32px;
     margin-top: 400px;
     position: absolute; /* Set position to absolute */
@@ -301,6 +299,12 @@ input[type="submit"] {
     right: 10px;
 
   }
+
+  @media screen and (max-device-width: 767px) and (orientation: landscape) {
+    .btn-lg {
+        margin-top: 480px; /* Adjust as needed */
+    }
+}
 
 
 
