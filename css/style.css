@@ -244,8 +244,6 @@ input[type="submit"] {
     flex-direction: column;
     justify-content: left;
     font-size: 24px;
-    margin-bottom: 1vh;
-    margin-top: 1vh;
   }
   
   .message {
@@ -256,7 +254,6 @@ input[type="submit"] {
     width: 50%;
     padding-bottom: 40px;
     font-family: "Space Mono", monospace;
-    margin-top: 1vh;
   }
   
   .message_text {
