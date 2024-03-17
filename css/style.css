@@ -267,6 +267,7 @@ input[type="submit"] {
     width: 50%;
     padding-bottom: 40px;
     font-family: "Space Mono", monospace;
+    margin-bottom: 1vh;
   }
   
   .message_text {
@@ -294,17 +295,11 @@ input[type="submit"] {
 .btn-lg {
     font-size: 32px;
     margin-top: 240px;
-    position: relative; /* Set position to absolute */
+    position: absolute; /* Set position to absolute */
     bottom: 0; /* Align the bottom of the button to the bottom of its parent */
     right: 10px;
 
   }
-
-  @media screen and (max-device-width: 767px) and (orientation: landscape) {
-    .btn-lg {
-        margin-top: 480px; /* Adjust as needed */
-    }
-}
 
 
 
